@@ -10,6 +10,7 @@
 
 <body>
 
+    <h1 id="topo"></h1>
 
     <nav class="navbar">
         <div class="container">
@@ -24,13 +25,12 @@
                 <li><a href="company.html">Empresa</a></li>
                 <li><a href="contact.html">Contato</a></li>
                 <li><a href="documents.html">Documentos</a></li>
-                <li><a href="anchors.html">Âncoras</a></li>
+                <li><a href="info.html">Informações</a></li>
                 <li><a href="formatting.html">Formatação</a></li>
                 <li><a href="links.html">Links Externos</a></li>
             </ul>
         </div>
     </nav>
-
 
     <div class="page-header">
         <div class="container">
@@ -39,16 +39,13 @@
         </div>
     </div>
 
-
     <section>
         <div class="container">
 
-
-
             <div class="list-section">
-                <h3><i data-lucide="bike"></i> Bicicletas Disponíveis — Lista Não Ordenada (&lt;ul&gt;)</h3>
+		    <!--  Lista Não Ordenada - ul -->
+                <h3><i data-lucide="bike"></i> Bicicletas Disponíveis </h3>
                 <p style="color:#888; margin-bottom:16px;">
-                    Use <code>&lt;ul&gt;</code> quando os itens não seguem uma ordem específica.
                     Aqui listamos todos os modelos de bicicletas disponíveis na loja.
                 </p>
                 <ul>
@@ -63,12 +60,10 @@
                 </ul>
             </div>
 
-
-
             <div class="list-section">
-                <h3><i data-lucide="star"></i> Mais Vendidos do Mês — Lista Ordenada (&lt;ol&gt;)</h3>
+		    <!-- Lista Ordenada - ol -->
+                <h3><i data-lucide="star"></i> Mais Vendidos do Mês </h3>
                 <p style="color:#888; margin-bottom:16px;">
-                    Use <code>&lt;ol&gt;</code> quando a ordem importa — como um ranking ou passo a passo.
                     Aqui mostramos os modelos mais vendidos.
                 </p>
                 <ol>
@@ -82,7 +77,7 @@
 
                 <h3 style="margin-top:28px;"><i data-lucide="check-circle"></i> Passo a Passo para Comprar</h3>
                 <p style="color:#888; margin-bottom:16px; margin-top:8px;">
-                    Etapas para comprar uma bike na nossa loja — lista ordenada porque a sequência importa.
+                    Etapas para comprar uma bike na nossa loja
                 </p>
                 <ol>
                     <li>Escolha a categoria de bicicleta (mountain, speed, urbana, infantil)</li>
@@ -97,11 +92,12 @@
 
 
             <div class="list-section">
-                <h3><i data-lucide="wrench"></i> Termos Técnicos e Especificações — Lista de Definições (&lt;dl&gt;)</h3>
-                <p style="color:#888; margin-bottom:16px;">
-                    Use <code>&lt;dl&gt;</code> para associar termos (<code>&lt;dt&gt;</code>) às suas definições (<code>&lt;dd&gt;</code>).
+		<!--  Lista de Definições - dl -->
+		<h3><i data-lucide="wrench"></i> Termos Técnicos e Especificações </h3>
+        	<!--
+		    Use <dl> para associar termos <dt> às suas definições <dd>.
                     Ideal para glossários, FAQs e fichas técnicas.
-                </p>
+		-->
                 <dl>
                     <dt>Quadro</dt>
                     <dd>A estrutura principal da bicicleta. Pode ser feito de aço, alumínio ou fibra de carbono.</dd>
@@ -138,10 +134,13 @@
         </div>
     </section>
 
+    <div style="text-align:center;">
+      <a href="#topo" style="color: #f5c200; text-decoration: none; font-size: 13px; font-weight: bold; ">↑ Voltar ao começo</a>
+    </div>
 
     <footer class="footer">
         <div class="container">
-            <p>Análise e Desenvolvimento de Sistemas — Desenvolvimento Web | Turma: Análise e desenvolvimento de sistemas</p>
+            <p>Análise e Desenvolvimento de Sistemas — Desenvolvimento Web | Turma: ADS/Taguatinga</p>
             <p>Luis Filipe Campelo &bull; Matheus Couto &bull; Rute Cunha</p>
             <p>&copy; 2026 SOFTBYKE. Todos os direitos reservados.</p>
         </div>
